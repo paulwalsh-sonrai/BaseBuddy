@@ -1,6 +1,7 @@
 <div align="center">
-  ![image](https://github.com/user-attachments/assets/fadab161-86fa-450e-bf20-140238377527)
+  <img src="https://github.com/user-attachments/assets/fadab161-86fa-450e-bf20-140238377527" alt="image">
 </div>
+
 
 
 <div align="center">
