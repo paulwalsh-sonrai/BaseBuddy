@@ -8,10 +8,10 @@
 
 # BaseBuddy
 
-A golang service that helps organizations make sense of their sprawling and complex code bases.
-
 </div>
+A small go cli utility to walk a directory and get a chance to enrich files with GPT magic through use of various provided prompt templates.
 
+Code gets injected at `{code}`  in the prompt template.
 
+Docs at `docs/`
 
-![mermaid-ai-diagram-2024-08-08-001954](https://github.com/user-attachments/assets/96065a45-7bb7-45d3-9234-9bc286196cde)
