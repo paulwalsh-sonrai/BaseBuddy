@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/replicate/replicate-go"
+	replicate "github.com/replicate/replicate-go"
 )
 
 // GenerateResponse generates a response from the LLaMA model based on the provided prompt.
@@ -32,7 +32,7 @@ func GenerateResponse(prompt string) (string, error) {
 	if response, ok := output.([]interface{}); ok && len(response) > 0 {
 		tmp := []string{}
 		for _, r := range response {
-			tmp = append(tmp, r.(string))	
+			tmp = append(tmp, r.(string))
 		}
 
 		return strings.join("")

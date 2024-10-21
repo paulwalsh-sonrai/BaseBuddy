@@ -8,18 +8,18 @@ import (
 )
 
 type Config struct {
-    S3Bucket      string
-    ChatGPTAPIKey string
+	S3Bucket      string
+	ChatGPTAPIKey string
 }
 
 func LoadConfig() (Config, error) {
-    err := godotenv.Load()
-    if err != nil {
-        log.Fatalf("Error loading .env file")
-    }
+	err := godotenv.Load()
+	if err != nil {
+		log.Fatalf("Error loading .env file")
+	}
 
-    return Config{
-        S3Bucket:      os.Getenv("S3_BUCKET"),
-        ChatGPTAPIKey: os.Getenv("CHATGPT_API_KEY"),
-    }, nil
+	return Config{
+		S3Bucket:      os.Getenv("S3_BUCKET"),
+		ChatGPTAPIKey: os.Getenv("CHATGPT_API_KEY"),
+	}, nil
 }
