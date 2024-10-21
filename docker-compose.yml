@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  basebuddy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - S3_BUCKET=PaulBaseBuddyTest
+
+
+
+
+      
